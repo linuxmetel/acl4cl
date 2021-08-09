@@ -1,0 +1,11 @@
+(defun pow-mod (x n m)
+  (assert (and (<= 0 n) (<= 1 m)))
+  (when (= m 1)
+    (return 0))
+  (loop :with r = 1
+        :with y = (mod x m)
+        :until (zerop n)
+        :unless (zerop (logand n 1))
+          :do (setq r (mod (* r y) m))
+        :do (setq y (mod (* y y) m))
+            (setq n (ash n -1))))
