@@ -6,8 +6,8 @@ Please use it with copying and pasting because It's not built in AtCoder environ
 
 # Document
 
-- [ACL4CL Document (en, master)](https://linuxmetel.github.io/acl4cl/document_en/)
-- [ACL4CL Doucment (ja, master)](https://linuxmetel.github.io/acl4cl/document_ja/)
+- [ACL4CL Document (en, master)](https://linuxmetel.github.io/acl4cl/master/document_en/)
+- [ACL4CL Doucment (ja, master)](https://linuxmetel.github.io/acl4cl/master/document_ja/)
 
 # License
 They are licensed under a CC0 license.
